@@ -1,5 +1,5 @@
-homme = ['Jean', 'Rafa', 'Gina', 'Jeremi', 'Mohammed', 'Ping', 'Geroge']
-femme = ['Dana', 'Mariyana', 'Pauline', 'Fatima', 'kathija', 'Nadine']
+homme = ['Jean', 'Rafa', 'Ghania', 'Jeremi', 'Mohammed', 'Ping', 'Geroge']
+femme = ['Dana', 'Marina', 'Pauline', 'Fatima', 'kathija', 'Nadine']
 #teste vide
 def vide(homme):
     if (homme) == []:
@@ -20,8 +20,8 @@ def reste(femme):
         return False
 #question 1
 def postion(femme):
-    if (femme) >= ['4']:
-        return femme[2:3]
+    if (femme) >= []:
+        return femme[2:4]
     else:
         return False
 #une liste      
