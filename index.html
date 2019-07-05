@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Formulair
+</title>
+<body>
+<form method="post">
+{% csrf_token %}
+<label for="dev1">dev1=</label>
+<input type="text"  name="dev1" value={{dev1}} id="dev1">
+<br>
+<label for="dev2">dev2=</label>
+<input type="text"  name="dev2" value={{dev2}} id="dev2">
+<br>
+<label for="taux">taux=</label>
+<input type="number"  name="taux" value={{taux}} id="taux">
+<br>
+<label for="montant">montant=</label>
+<input type="number"  name="montant" value={{montant}} id="montant">
+<br>
+<label for="result">result=</label>
+<input type="number"  name="result" value={{result}} id="result">
+<button type="submit">calculer</button>
+</form>
+</head>
+</html>
